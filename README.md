@@ -31,15 +31,24 @@ pip install -r requirements.txt
 
 # Running the techniques
 
-## Running DeepManeuver
+## Running single-objective DeepManeuver
 
 ```python
+<path/to/venv> simulation/collect-perturbed-trace-metas.py <parent_dir/of/BeamNG> <road_id>
+```
+The `road_id` may change depending on your installation of BeamNG. 
+It will usually be one of `7981`, `7982`, or `7983` to identify the outer loop of the industrial racetrack.
 
+## Running multi-objective DeepManeuver
+```python
+<path/to/venv> simulation/collect-multiobjective-trace-metas-bullseye.py <parent_dir/of/BeamNG> <road_id>
+<path/to/venv> simulation/collect-multiobjective-trace-metas-lanechange.py <parent_dir/of/BeamNG> <road_id>
+<path/to/venv> simulation/collect-multiobjective-trace-metas-cutcorner.py <parent_dir/of/BeamNG> <road_id>
 ```
 
 ## Running Deepbillboard without the simulator
 ```bash
-python -m deepbillboard dave.onnx sequences/Digital/digital_Udacity_straight1/ --direction=right
+python -m deepbillboard dave.onnx <path/to/image/sequence> --direction=right
 ```
 
 This will output results to `./samples/digital_Udacity_straight1`. 
