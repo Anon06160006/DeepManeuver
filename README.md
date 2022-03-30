@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 # Running the techniques
 
-## Running single-objective DeepManeuver
+## Running single-objective DeepManeuver and Deepbillboard
 
 ```python
 <path/to/venv> simulation/collect-perturbed-trace-metas.py <parent_dir/of/BeamNG> <road_id>
