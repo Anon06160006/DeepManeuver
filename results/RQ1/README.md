@@ -2,12 +2,26 @@
 
 To answer this question we compare DeepManeuver against two versions of Deepbillboard, and we also explore the effect of some key parameters.
 
-# Table 1: Fair comparison to Deepbillboard
+# Experiment 1: Comparison to DeepBillboard on three topologies
 
-![DBB COMPARISON](../../images/RQ1-Table1.png)
+## Topology 1
 
-# Table 2: Preliminary parameter exploration
+![topology 1](../../images/exp1-top1.png)
 
-![CUT-ON, NOISE VARIANCE](../../images/RQ1-Table2.png)
+## Topology 2
 
-![INPUT DIVERSIFICATION](../../images/RQ1-Table3.png)
+![topology 2](../../images/exp1-top2.png)
+
+## Topology 3
+
+![topology 3](../../images/exp1-top3.png)
+
+# Experiment 2: Preliminary parameter exploration
+
+## Cut-on
+
+![CUT-ON](../../images/exp2-cuton.png)
+
+## Noise Variance
+
+![NOISE VARIANCE](../../images/exp2-noisevar.png)
