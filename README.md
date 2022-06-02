@@ -18,9 +18,9 @@ We also show DeepManeuver effectiveness at disrupting vehicle behavior to achiev
 
 # Examples
 
-![sample run](./images/deepmaneuver-opt.gif)
+![sample run](./images/deepmaneuver-480p.gif)
 
-The above gif shows an example run of DeepManeuver.
+An example run of DeepManeuver is shown above.
 The ego vehicle navigates along the center of the road towards the attack surface, a billboard on the left-hand side of the road.
 Semantic segmentation in the lower left corner shows the boundaries of the attack surface.
 Below that, the image shows what the onboard camera sees, i.e., the image collected by the perception system collects at each simulation step.
